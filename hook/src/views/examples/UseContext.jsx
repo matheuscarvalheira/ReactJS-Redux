@@ -25,7 +25,7 @@ const UseContext = (props) => {
         if (number >= 1245) {
             setText('Se acalme!')
         }
-    }, [number])
+    }, [number, setText])
 
     return (
         <div className="UseContext">
