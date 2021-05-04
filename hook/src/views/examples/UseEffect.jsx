@@ -32,7 +32,7 @@ const UseEffect = (props) => {
     const [status, setStatus] = useState("Ímpar");
 
     useEffect(() => {
-        setStatus(number % 2 == 0 ? 'Par' : 'Ímpar')
+        setStatus(number % 2 === 0 ? 'Par' : 'Ímpar')
     }, [number])
 
     return (
